@@ -1,0 +1,159 @@
+body {
+    background-image: url('assets/Casa\ imagem.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300vh;
+    background-position: center;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #005F42;
+    opacity: 0.53;
+    padding: 20px;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-family: Helvetica, sans-serif;
+    font-weight: 50;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 25px;
+}
+
+.about_background {
+    background-color: rgb(0, 0, 0, 0.39);
+    width: 105%;
+}
+
+#about_project {
+    color: white;
+    opacity: 100%;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#about_text {
+    color: white;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-weight: 10;
+    font-size: 16px;
+}
+
+.card_photos {
+    border-style: none;
+    width: 364px;
+    height: 313px;
+    margin: 0 auto;
+    margin-top: 64px;
+    border-radius: 34px;
+    background-color: rgba(255, 255, 255, 0.46);
+    padding: 20px;
+}
+
+.fotos_aulas {
+    color: black;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.photo_text {
+    text-align: center;
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+}
+
+.photos_here {
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    background-color: #356353;
+    max-width: 205px;
+    padding: 20px;
+    margin-left: 84px;
+    border-radius: 10px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.photos_here:hover {
+    color: #356353;
+    background-color: white;
+    transition: color 0.5s ease;
+}
+
+.draw_section {
+    background-color: #356353;
+    padding: 35px;
+    margin-top: 64px;
+}
+
+.draw_class {
+    font-weight: 900;
+    font-family: Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+.draw_text {
+    background-color: beige;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: Helvetica, sans-serif;
+}
+
+.video_class {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: color 0.3s ease;
+}
+
+.video_class:hover {
+    color:blue;
+}
+
+.draw_section2 {
+    background-color: #356353;
+    padding: 35px;
+    margin-top: 40px;
+}
+
+.footer_class {
+    text-align: center;
+    background-color: rgb(22, 31, 28);
+    padding: 15px;
+}
+
+.follow_us {
+    color: rgb(255, 255, 255);
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.instagram {
+    color: rgb(151, 60, 90);
+    font-family: Helvetica, sans-serif;
+}
